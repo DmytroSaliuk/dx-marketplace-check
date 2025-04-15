@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dx-marketplace-check
+  description: Playwright tests for DX Marketplace availability
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
+
