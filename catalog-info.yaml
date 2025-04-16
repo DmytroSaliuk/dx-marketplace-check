@@ -6,14 +6,14 @@ metadata:
   tags:
     - api
     - backend
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/api-spec: url:https://raw.githubusercontent.com/DmytroSaliuk/dx-marketplace-check/main/openapi.json
 spec:
   type: service
   lifecycle: production
   owner: user:guest
-  providesApis:
-    - api: my-service-api
-      spec:
-        url: https://raw.githubusercontent.com/DmytroSaliuk/dx-marketplace-check/main/openapi.json
+
 
 
 
