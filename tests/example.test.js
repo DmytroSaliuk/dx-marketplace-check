@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('Перевірка доступності сайту', async ({ page }) => {
+test('Checking the availability of the site', async ({ page }) => {
   await page.goto('https://inventory.dev.dxm.digitalrealty.com/marketplace');
 
   const locator = page.locator('.navbar - title');
